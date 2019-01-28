@@ -1,0 +1,107 @@
+//Site Colors
+
+$site-color-1: #C78E97;
+$site-color-2: #878098;
+$site-color-3: #A2A9BF;
+$site-color-4: #509C8E;
+$site-color-5: #F2A27D;
+
+body{
+    background-color: $site-color-4;
+    color: white;
+    font-family: 'Stint Ultra Condensed', Arial, Helvetica, sans-serif;
+}
+
+#smalllogo{
+    width: 3rem;
+    height: 3rem;
+}
+.navbar {
+    width: 100%;
+    background: none !important;
+    color: white;
+    font-size: 2rem;
+}
+
+#hikers{
+    background: url('../assets/JEMindex.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    h1{
+        color: $site-color-5;
+        margin-top: 15rem;
+        font-size: 10rem;
+    }
+}
+
+.logo-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.feature-wrapper{
+    background-color: $site-color-3;
+    color: white;
+}
+
+.card {
+    border: none;
+    img{
+       height: auto; 
+    }
+}
+
+ .card-img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(199, 142, 151, .7);
+    p{
+        font-size: 1.5rem;
+    }
+}
+
+.card-img-overlay:hover{
+    opacity: 1;
+}
+
+
+#social-bar{
+    img{
+        width: 4rem;
+        height: 4rem; 
+    }
+}
+
+footer{
+a{
+    color:white;
+}
+
+a:hover{
+    color:gray;
+}
+img{
+    height: 20px;
+    width: 20px;
+}
+}
+
+form{
+    .btn{
+        background-color: $site-color-1;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,72 @@
+body {
+  background-color: #509C8E;
+  color: white;
+  font-family: 'Stint Ultra Condensed', Arial, Helvetica, sans-serif; }
+
+#smalllogo {
+  width: 3rem;
+  height: 3rem; }
+
+.navbar {
+  width: 100%;
+  background: none !important;
+  color: white;
+  font-size: 2rem; }
+
+#hikers {
+  background: url("../assets/JEMindex.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh; }
+  #hikers h1 {
+    color: #F2A27D;
+    margin-top: 15rem;
+    font-size: 10rem; }
+
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
+
+.feature-wrapper {
+  background-color: #A2A9BF;
+  color: white; }
+
+.card {
+  border: none; }
+  .card img {
+    height: auto; }
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(199, 142, 151, 0.7); }
+  .card-img-overlay p {
+    font-size: 1.5rem; }
+
+.card-img-overlay:hover {
+  opacity: 1; }
+
+#social-bar img {
+  width: 4rem;
+  height: 4rem; }
+
+footer a {
+  color: white; }
+
+footer a:hover {
+  color: gray; }
+
+footer img {
+  height: 20px;
+  width: 20px; }
+
+form .btn {
+  background-color: #C78E97; }
